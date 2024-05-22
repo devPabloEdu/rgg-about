@@ -31,6 +31,7 @@ a {
     padding: 10px;
     position: relative;
     top: -20px;
+
 }
 .emailyellow{
     background-color: yellow;
@@ -38,6 +39,7 @@ a {
 }
 a:hover{
     background-color: #4249586b;
+    border-bottom: solid white;
 }
 .emailyellow:hover{
     background-color: rgb(102, 102, 10);
