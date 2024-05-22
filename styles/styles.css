@@ -86,7 +86,7 @@ a:hover{
     line-height: 2em;
     padding: 30px;
 }
-#logorggfooter{
+.logorggfooter{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,5 +103,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /*chat gpt q fez isso kkk*/
 
+}
+
+#textfooter{
+    line-height: 1.2em;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 60px;
 }
