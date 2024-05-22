@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+nav {
+    background-color: #142038;
+    width: 100vw;
+}
+.logodaseganav{
+    max-width: none;
+    margin: 1em;
+    width: 65px;
+    position: relative;
+    top: 2px;
+}
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    flex-direction: row;
+    align-self: stretch;
+    padding: 10px;
+    position: relative;
+    top: -20px;
+}
+.emailyellow{
+    background-color: yellow;
+    color: black;
+}
+a:hover{
+    background-color: #4249586b;
+}
+.emailyellow:hover{
+    background-color: rgb(102, 102, 10);
+}
+
+.aboutryugagotokustudio{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+.aboutryugagotokustudio h2{
+    padding-bottom: 20px;
+}
+.aboutryugagotokustudio p{
+    padding-top: 20px;
+}
+#imgaboutrgg{
+    width: 150px;
+    margin: auto;
+    padding: 20px;
+}
+#developerscontainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#developersphoto{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    margin: 0;
+}
+#developersname{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    line-height: 1.5em;
+    font-weight: lighter;
+    opacity: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#diretordeprojeto{
+    font-size: 1.5em;
+    line-height: 2em;
+    padding: 30px;
+}
+#logorggfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    padding: 20px;
+}
+
+footer {
+    background-image: url("https://th.bing.com/th/id/OIP.EQpEqBY-A2BGV7Fw0X5_AQHaEK?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    padding: 20px 0; /* Adicionei padding para espaçamento interno */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
