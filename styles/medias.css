@@ -7,8 +7,7 @@
       font-size: 0.6em;
       float: right;
       position: relative;
-      top: 30px;
-      right: 80px;
+      top: 20px;
     }
     #toolbaricon{
         display: flex;
@@ -17,7 +16,9 @@
          width: 40px;
         float: right;
         position: relative;
-        left: -350px;
         top: -10px;
+        justify-content: right;
+
+        cursor: pointer;
     }
   }
