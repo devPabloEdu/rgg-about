@@ -9,6 +9,16 @@
       position: relative;
       top: 20px;
     }
+    a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        flex-direction: row;
+        align-self: stretch;
+        padding: 10px;
+        position: relative;
+        top: -20px;
+    }
     #toolbaricon{
         display: flex;
         max-width: none;
@@ -20,5 +30,35 @@
         justify-content: right;
 
         cursor: pointer;
+    }
+    #imgaboutrgg{
+        width: 150px;
+        margin: auto;
+        padding: 20px;
+    }
+    #developerscontainer{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    #developersphoto{
+        max-width: 100%;
+        width: 400px;
+        height: auto;
+        margin: 0;
+    }
+    #developersname{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        line-height: 1.5em;
+        font-weight: lighter;
+        opacity: 30%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #diretordeprojeto{
+        font-size: 1.5em;
+        line-height: 2em;
+        padding: 30px;
     }
   }
