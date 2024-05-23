@@ -1,11 +1,23 @@
 @charset "UTF-8";
 
 @media (max-width: 600px) {
-    a{
+    #menutoolbar{
       display: none;
+      font-weight: lighter;
+      font-size: 0.6em;
+      float: right;
+      position: relative;
+      top: 30px;
+      right: 80px;
     }
-    .logodaseganav{
-       position: relative;
-       left: 40%;
+    #toolbaricon{
+        display: flex;
+        max-width: none;
+         margin: 1em;
+         width: 40px;
+        float: right;
+        position: relative;
+        left: -350px;
+        top: -10px;
     }
   }
